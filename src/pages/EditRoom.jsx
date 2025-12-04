@@ -32,7 +32,7 @@ const EditRoom = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://localhost:7208/api/Room/" + id, rooms)
+      .post("https://hotelmanagement-5c29.onrender.com/api/Room/" + id, rooms)
       .then(() => navigate("/rooms"))
       .catch((err) => console.error(err));
   };
