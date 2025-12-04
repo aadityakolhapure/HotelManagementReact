@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Dashboard() {
   return (
     <div>
-      <div className="bg-primary text-white text-center py-5">
+      <div className="bg-primary text-white text-center py-5 rounded-3">
         <h1 className="display-4 fw-bold">Hotel Management System</h1>
         <p className="lead mt-3">
           Manage Rooms, Customers, and Bookings Easily

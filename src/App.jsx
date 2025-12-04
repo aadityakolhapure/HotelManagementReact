@@ -1,4 +1,3 @@
-
 import StudentList from "./components/StudentList.jsx";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Navbar from "./components/NavBar.jsx";
@@ -11,12 +10,11 @@ import Bookings from "./pages/Bookings.jsx";
 import AddBookings from "./pages/AddBookings.jsx";
 import EditCustomer from "./pages/EditCustomer.jsx";
 import EditRoom from "./pages/EditRoom.jsx";
+import "./index.css";
 
 import "./App.css";
 
 function App() {
-  
-
   return (
     <>
       <BrowserRouter>

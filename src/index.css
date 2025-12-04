@@ -1,0 +1,13 @@
+* {
+  font-family: Gilroy, sans-serif;
+}
+
+::selection {
+  color: #52d0ff;
+}
+
+body {
+  background-color: #f5f8ff;
+  background-image: radial-gradient(#c9d8ff 1px, transparent 1px);
+  background-size: 20px 20px;
+}
