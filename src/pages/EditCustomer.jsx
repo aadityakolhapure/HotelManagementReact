@@ -15,7 +15,7 @@ const EditCustomer = () => {
 
   const LoadCustomer = () => {
     axios
-      .get("https://localhost:7208/api/Customer/" + id)
+      .get("https://hotelmanagement-5c29.onrender.com/api/Customer/" + id)
       .then((res) => setCustomer(res.data))
       .catch((err) => console.error(err));
   };
